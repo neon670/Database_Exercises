@@ -9,7 +9,7 @@
  	artist VARCHAR(100) NOT NULL,
  	name VARCHAR(100) NOT NULL,
  	release_date YEAR(4) NOT NULL,
- 	sales FLOAT NOT NULL,
+ 	sales_in_millions FLOAT NOT NULL,
  	genre VARCHAR(100) DEFAULT 'NONE',
  	PRIMARY KEY (id)
  	);
